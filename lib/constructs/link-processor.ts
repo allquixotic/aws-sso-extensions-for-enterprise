@@ -52,7 +52,7 @@ export class LinkProcessor extends Construct {
       name(buildConfig, "linkManagerHandler"),
       {
         functionName: name(buildConfig, "linkManagerHandler"),
-        runtime: Runtime.NODEJS_16_X,
+        runtime: Runtime.NODEJS_18_X,
         architecture: Architecture.ARM_64,
         entry: join(
           __dirname,
@@ -107,7 +107,7 @@ export class LinkProcessor extends Construct {
       this,
       name(buildConfig, "processTargetAccountSMListenerHandler"),
       {
-        runtime: Runtime.NODEJS_16_X,
+        runtime: Runtime.NODEJS_18_X,
         functionName: name(
           buildConfig,
           "processTargetAccountSMListenerHandler"
@@ -143,7 +143,7 @@ export class LinkProcessor extends Construct {
       name(buildConfig, "linkTopicProcessor"),
       {
         functionName: name(buildConfig, "linkTopicProcessor"),
-        runtime: Runtime.NODEJS_16_X,
+        runtime: Runtime.NODEJS_18_X,
         entry: join(
           __dirname,
           "../",
