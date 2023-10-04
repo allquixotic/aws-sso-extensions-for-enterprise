@@ -19,7 +19,7 @@
     "@aws-sdk/credential-providers": "^3.347.1",
     "@aws-sdk/lib-dynamodb": "^3.172.0",
     "@aws-sdk/util-dynamodb": "^3.172.0",
-    "@aws-sdk/util-waiter": "^3.171.0",
+    "@aws-sdk/util-waiter": "^3.370.0",
     "ajv": "^8.11.0",
     "json-diff": "^0.9.0",
     "uuid": "^9.0.0"
