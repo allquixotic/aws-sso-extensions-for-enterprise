@@ -7,7 +7,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.370.0",
+    "@aws-sdk/client-dynamodb": "^3.410.0",
     "@aws-sdk/client-identitystore": "^3.347.1",
     "@aws-sdk/client-organizations": "^3.347.1",
     "@aws-sdk/client-s3": "^3.370.0",
