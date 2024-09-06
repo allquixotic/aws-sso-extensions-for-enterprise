@@ -21,7 +21,7 @@
     "@aws-sdk/util-dynamodb": "^3.172.0",
     "@aws-sdk/util-waiter": "^3.171.0",
     "ajv": "^8.11.0",
-    "json-diff": "^0.9.0",
+    "json-diff": "^1.0.3",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
